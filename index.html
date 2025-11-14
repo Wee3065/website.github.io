@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>อุปกรณ์ฟื้นฟูสมรรถภาพแขน</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="menu-icon" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="logo">อุปกรณ์ฟื้นฟูสมรรถภาพแขน</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#" class="nav-link active" data-page="home">หน้าแรก</a></li>
+                <li><a href="#" class="nav-link" data-page="order">สั่งซื้อ</a></li>
+                <li><a href="#" class="nav-link" data-page="team">ผู้พัฒนา</a></li>
+                <li><a href="#" class="nav-link" data-page="contact">ติดต่อเรา</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Page -->
+    <div id="home-page" class="page active">
+       
+        <header class="page-header">
+            <div class="header-background">
+                <div class="halftone-pattern"></div>
+            </div>
+            <h1 class="page-title">อุปกรณ์ฟื้นฟูสมรรถภาพแขน</h1>
+            <div class="title-underline"></div>
+        </header>
+
+       
+        <section class="banner-section">
+            <div class="banner-content">
+                <h2>ฟื้นฟูการเคลื่อนไหว คืนพลังให้แขนคุณ</h2>
+            </div>
+        </section>
+
+        
+        <section class="banner-images-section">
+            <div class="container">
+                <div class="banner-images-grid">
+                    <div class="banner-image-card" onclick="openImagePopup(1)">
+                        <img src="images/image1.jpg" alt="กลุ่มคนดูหุ่นยนต์" onerror="this.src='https://via.placeholder.com/400x300/2563EB/FFFFFF?text=Image+1'">
+                        <div class="banner-image-overlay">
+                            <span class="zoom-icon">🔍</span>
+                        </div>
+                    </div>
+                    <div class="banner-image-card" onclick="openImagePopup(2)">
+                        <img src="images/image2.jpg" alt="ทีมงานกายภาพบำบัด" onerror="this.src='https://via.placeholder.com/400x300/2563EB/FFFFFF?text=Image+2'">
+                        <div class="banner-image-overlay">
+                            <span class="zoom-icon">🔍</span>
+                        </div>
+                    </div>
+                    <div class="banner-image-card" onclick="openImagePopup(3)">
+                        <img src="images/image3.jpg" alt="การใช้งานอุปกรณ์" onerror="this.src='https://via.placeholder.com/400x300/2563EB/FFFFFF?text=Image+3'">
+                        <div class="banner-image-overlay">
+                            <span class="zoom-icon">🔍</span>
+                        </div>
+                    </div>
+                    <div class="banner-image-card" onclick="openImagePopup(4)">
+                        <img src="images/image4.jpg" alt="ทีมผู้พัฒนา" onerror="this.src='https://via.placeholder.com/400x300/2563EB/FFFFFF?text=Image+4'">
+                        <div class="banner-image-overlay">
+                            <span class="zoom-icon">🔍</span>
+                        </div>
+                    </div>
+                    <div class="banner-image-card" onclick="openImagePopup(5)">
+                        <img src="images/image5.jpg" alt="หุ่นยนต์ต้นแบบ" onerror="this.src='https://via.placeholder.com/400x300/2563EB/FFFFFF?text=Image+5'">
+                        <div class="banner-image-overlay">
+                            <span class="zoom-icon">🔍</span>
+                        </div>
+                    </div>
+                    <div class="banner-image-card" onclick="openImagePopup(6)">
+                        <img src="images/image6.jpg" alt="อุปกรณ์หุ่นยนต์" onerror="this.src='https://via.placeholder.com/400x300/2563EB/FFFFFF?text=Image+6'">
+                        <div class="banner-image-overlay">
+                            <span class="zoom-icon">🔍</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    
+        <section class="content-section white-section">
+            <div class="container">
+                <p class="content-text", style="text-align: center;">
+                    แนวคิดในการออกแบบ เพื่อช่วยฟื้นฟูหรือบำบัดให้ผู้ที่มีกล้ามเนื้ออ่อนแรงหรือบาดเจ็บ เคลื่อนไหวได้สะดวก
+                </p>
+            </div>
+        </section>
+
+        
+        <section class="content-section blue-section">
+            <div class="container">
+                <p class="content-text">
+                    อุปกรณ์ฟื้นฟูสมรรถภาพแขนถูกออกแบบมาเพื่อช่วยในการกายภาพบำบัดสำหรับผู้ที่มีปัญหาการเคลื่อนไหวของแขน เช่น หลังอุบัติเหตุ โรคหลอดเลือดสมอง หรือกล้ามเนื้ออ่อนแรง
+                </p>
+                <p class="content-text">
+                    โดยอุปกรณ์นี้ช่วยให้ผู้ใช้งานสามารถบริหารแขนได้อย่างปลอดภัย ถูกท่า และสม่ำเสมอ
+                </p>
+            </div>
+        </section>
+
+        <section class="content-section white-section">
+            <div class="container">
+                <h2 class="section-title">คุณสมบัติ</h2>
+                <ul class="feature-list">
+                    <li>ช่วยฟื้นฟูการเคลื่อนไหวของแขน</li>
+                    <li>ควบคุมด้วยระบบอัตโนมัติ</li>
+                    <li>มีระบบวัดมุมการเคลื่อนไหวเพื่อประเมินความก้าวหน้า</li>
+                    <li>วัสดุแข็งแรง น้ำหนักเบา ปลอดภัยต่อผู้ใช้งาน</li>
+                    <li>ใช้งานง่าย เหมาะกับผู้สูงอายุและผู้ป่วยที่ต้องกายภาพด้วยตนเอง</li>
+                </ul>
+            </div>
+        </section>
+
+     
+        <section class="content-section blue-section">
+            <div class="container">
+                <h2 class="section-title">ประโยชน์</h2>
+                <ul class="benefit-list">
+                    <li>ลดภาระของนักกายภาพบำบัด</li>
+                    <li>เพิ่มประสิทธิภาพในการฟื้นตัวของกล้ามเนื้อ</li>
+                    <li>ส่งเสริมให้ผู้ป่วยมีกำลังใจในการฝึกอย่างต่อเนื่อง</li>
+                </ul>
+            </div>
+        </section>
+
+ 
+        <section class="content-section white-section">
+            <div class="container">
+                <h2 class="section-title">คำแนะนำ</h2>
+                <p class="content-text", style="text-align: center;">
+                    ควรได้รับการสอนใช้งานก่อน เพื่อที่จะได้เข้าใจเทคโนโลยี
+                </p>
+            </div>
+        </section>
+
+     
+        <section class="content-section blue-section">
+            <div class="container">
+                <h2 class="section-title">สรุปผลและข้อเสนอแนะ</h2>
+                <p class="content-text">
+                    สิ่งที่ได้เรียนรู้จากสิ่งประดิษฐ์นี้คือ ได้ลองประดิษฐ์ แก้ปัญหาและเข้าใจในการทำงาน ได้เรียนรู้เกี่ยวกับคนป่วย คนอ่อนแรงที่กล้ามเนื้อมีการสูญสลาย
+                </p>
+            </div>
+        </section>
+    </div>
+
+  
+    <div id="team-page" class="page">
+   
+        <header class="page-header">
+            <div class="header-background">
+                <div class="halftone-pattern"></div>
+            </div>
+            <h1 class="page-title">ทีมผู้พัฒนา (Team Members)</h1>
+            <div class="title-underline"></div>
+        </header>
+
+        <!-- Team Content -->
+        <section class="team-section">
+            <div class="container">
+                <h2 class="team-section-title">ทีมผู้พัฒนา</h2>
+                <div class="team-grid">
+                    <!-- ชวิศา เพรช -->
+                    <div class="team-member-card">
+                        <div class="member-photo">
+                            <img src="images/team1.jpg" alt="นายชวิศา ทิตย์อากาศ" onerror="this.src='https://via.placeholder.com/300x400/2563EB/FFFFFF?text=Photo'">
+                        </div>
+                        <div class="member-info">
+                            <h2 class="member-name-th">นายชวิศา ทิตย์อากาศ</h2>
+                            <h3 class="member-name-en">Chawisa Thitarkat</h3>
+                            <p class="member-school">วิทยาลัยพณิชยการบางนา</p>
+                            <p class="member-major">สาขาคอมพิวเตอร์ธุรกิจ</p>
+                        </div>
+                    </div>
+
+                    <!-- ธาวิน จิมมี่ -->
+                    <div class="team-member-card">
+                        <div class="member-photo">
+                            <img src="images/team2.jpg" alt="นายธาวิน ชื่นจิตต์ศิริ" onerror="this.src='https://via.placeholder.com/300x400/2563EB/FFFFFF?text=Photo'">
+                        </div>
+                        <div class="member-info">
+                            <h2 class="member-name-th">นายธาวิน ชื่นจิตต์ศิริ</h2>
+                            <h3 class="member-name-en">Mr. Thawin Chuenjitsiri</h3>
+                            <p class="member-school">วิทยาลัยพณิชยการบางนา</p>
+                            <p class="member-major">สาขาคอมพิวเตอร์ธุรกิจ</p>
+                        </div>
+                    </div>
+
+                    <!-- ชยางกูร กัน -->
+                    <div class="team-member-card">
+                        <div class="member-photo">
+                            <img src="images/team3.jpg" alt="นายชยางกูร ขาวเผือก" onerror="this.src='https://via.placeholder.com/300x400/2563EB/FFFFFF?text=Photo'">
+                        </div>
+                        <div class="member-info">
+                            <h2 class="member-name-th">นายชยางกูร ขาวเผือก</h2>
+                            <h3 class="member-name-en">Mr. Chayangkul Khawphueak</h3>
+                            <p class="member-school">วิทยาลัยพณิชยการบางนา</p>
+                            <p class="member-major">สาขาคอมพิวเตอร์ธุรกิจ</p>
+                        </div>
+                    </div>
+
+                    <!-- ก้องก่อศักดิ์ ก้อง -->
+                    <div class="team-member-card">
+                        <div class="member-photo">
+                            <img src="images/team4.jpg" alt="นายก้องก่อศักดิ์ จรัสรัตนสำราญ" onerror="this.src='https://via.placeholder.com/300x400/2563EB/FFFFFF?text=Photo'">
+                        </div>
+                        <div class="member-info">
+                            <h2 class="member-name-th">นายก้องก่อศักดิ์ จรัสรัตนสำราญ</h2>
+                            <h3 class="member-name-en">Mr. Kongkorsak Charatrattanasamran</h3>
+                            <p class="member-school">วิทยาลัยพณิชยการบางนา</p>
+                            <p class="member-major">สาขาคอมพิวเตอร์ธุรกิจ</p>
+                        </div>
+                    </div>
+
+                    <!-- อชิตวา อชิ -->
+                    <div class="team-member-card">
+                        <div class="member-photo">
+                            <img src="images/team5.jpg" alt="นายอชิตวา เมฆสงค์" onerror="this.src='https://via.placeholder.com/300x400/2563EB/FFFFFF?text=Photo'">
+                        </div>
+                        <div class="member-info">
+                            <h2 class="member-name-th">นายอชิตวา เมฆสงค์</h2>
+                            <h3 class="member-name-en">Mr. Achitawa Maksong</h3>
+                            <p class="member-school">วิทยาลัยพณิชยการบางนา</p>
+                            <p class="member-major">สาขาคอมพิวเตอร์ธุรกิจ</p>
+                        </div>
+                    </div>
+
+                    <!-- วีรภัทร วี -->
+                    <div class="team-member-card">
+                        <div class="member-photo">
+                            <img src="images/team6.jpg" alt="นายวีรภัทร เกิดแสวง" onerror="this.src='https://via.placeholder.com/300x400/2563EB/FFFFFF?text=Photo'">
+                        </div>
+                        <div class="member-info">
+                            <h2 class="member-name-th">นายวีรภัทร เกิดแสวง</h2>
+                            <h3 class="member-name-en">Mr. Weeraphat Koedsawang</h3>
+                            <p class="member-school">วิทยาลัยพณิชยการบางนา</p>
+                            <p class="member-major">สาขาคอมพิวเตอร์ธุรกิจ</p>
+                        </div>
+                    </div>
+
+                    <!-- ครูที่ปรึกษา -->
+                    <div class="team-member-card advisor-card">
+                        <div class="member-photo">
+                            <img src="images/advisor.jpg" alt="นางสาวอาทิตยา ทองวิเศษ" onerror="this.src='https://via.placeholder.com/300x400/2563EB/FFFFFF?text=Advisor'">
+                        </div>
+                        <div class="member-info">
+                            <div class="advisor-badge">ครูที่ปรึกษา</div>
+                            <h2 class="member-name-th">นางสาวอาทิตยา ทองวิเศษ</h2>
+                            <h3 class="member-name-en">Miss Atittaya Thongvises</h3>
+                            <p class="member-school">วิทยาลัยพณิชยการบางนา</p>
+                            <p class="member-major">แผนกวิชาคอมพิวเตอร์ธุรกิจ</p>
+                            <p class="member-role">พนักงานราชการ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Order Page -->
+    <div id="order-page" class="page">
+        <header class="page-header">
+            <div class="header-background">
+                <div class="halftone-pattern"></div>
+            </div>
+            <h1 class="page-title">สั่งซื้อสินค้า</h1>
+            <div class="title-underline"></div>
+        </header>
+
+        <section class="order-section">
+            <div class="container">
+                <div class="order-container">
+                    <!-- Product Info -->
+                    <div class="order-product-card">
+                        <div class="product-image-wrapper">
+                            <img src="images/image6.jpg" alt="อุปกรณ์ฟื้นฟูสมรรถภาพแขน" class="product-image" onerror="this.src='https://via.placeholder.com/500x400/2563EB/FFFFFF?text=อุปกรณ์ฟื้นฟูสมรรถภาพแขน'">
+                        </div>
+                        <div class="product-details">
+                            <h2 class="product-name">อุปกรณ์ฟื้นฟูสมรรถภาพแขน</h2>
+                            <p class="product-description">
+                                อุปกรณ์ฟื้นฟูสมรรถภาพแขนถูกออกแบบมาเพื่อช่วยในการกายภาพบำบัดสำหรับผู้ที่มีปัญหาการเคลื่อนไหวของแขน 
+                                เช่น หลังอุบัติเหตุ โรคหลอดเลือดสมอง หรือกล้ามเนื้ออ่อนแรง
+                            </p>
+                            <div class="product-features">
+                                <div class="feature-tag">ช่วยฟื้นฟูการเคลื่อนไหว</div>
+                                <div class="feature-tag">ควบคุมด้วยระบบอัตโนมัติ</div>
+                                <div class="feature-tag">วัสดุแข็งแรง น้ำหนักเบา</div>
+                                <div class="feature-tag">ปลอดภัยต่อผู้ใช้งาน</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Order Form -->
+                    <div class="order-form-card">
+                        <h2 class="form-title">รายละเอียดการสั่งซื้อ</h2>
+                        
+                        <!-- Price Summary -->
+                        <div class="price-summary">
+                            <div class="price-row">
+                                <span class="price-label">ราคาสินค้า</span>
+                                <span class="price-value" id="productPrice">2,500.00</span>
+                                <span class="price-currency">บาท</span>
+                            </div>
+                            <div class="price-row">
+                                <span class="price-label">VAT 7%</span>
+                                <span class="price-value" id="vatAmount">175.00</span>
+                                <span class="price-currency">บาท</span>
+                            </div>
+                            <div class="price-row total-row">
+                                <span class="price-label">ยอดรวมทั้งสิ้น</span>
+                                <span class="price-value" id="totalAmount">2,675.00</span>
+                                <span class="price-currency">บาท</span>
+                            </div>
+                        </div>
+
+                        <!-- Customer Information Form -->
+                        <form id="orderForm" class="order-form">
+                            <div class="form-group">
+                                <label for="customerName" class="form-label">
+                                    <span class="label-icon">👤</span>
+                                    ชื่อ-นามสกุลผู้รับ
+                                </label>
+                                <input 
+                                    type="text" 
+                                    id="customerName" 
+                                    name="customerName" 
+                                    class="form-input" 
+                                    placeholder="กรุณากรอกชื่อ-นามสกุล"
+                                    required
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="customerPhone" class="form-label">
+                                    <span class="label-icon">📱</span>
+                                    เบอร์โทรศัพท์
+                                </label>
+                                <input 
+                                    type="tel" 
+                                    id="customerPhone" 
+                                    name="customerPhone" 
+                                    class="form-input" 
+                                    placeholder="08X-XXX-XXXX"
+                                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                                    required
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="customerAddress" class="form-label">
+                                    <span class="label-icon">📍</span>
+                                    ที่อยู่จัดส่ง
+                                </label>
+                                <textarea 
+                                    id="customerAddress" 
+                                    name="customerAddress" 
+                                    class="form-input form-textarea" 
+                                    rows="4"
+                                    placeholder="กรุณากรอกที่อยู่จัดส่งที่ชัดเจน"
+                                    required
+                                ></textarea>
+                            </div>
+
+                            <div class="form-actions">
+                                <button type="button" class="btn-cancel" onclick="switchPage('home')">
+                                    ยกเลิก
+                                </button>
+                                <button type="submit" class="btn-submit" id="submitOrderBtn">
+                                    <span class="btn-text">ยืนยันการสั่งซื้อ</span>
+                                    <span class="btn-icon">🛒</span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Contact Page -->
+    <div id="contact-page" class="page">
+        
+        <header class="page-header">
+            <div class="header-background">
+                <div class="halftone-pattern"></div>
+            </div>
+            <h1 class="page-title">ติดต่อเรา (Contact)</h1>
+            <div class="title-underline"></div>
+        </header>
+
+ 
+        <section class="contact-info-section">
+            <div class="container">
+                <div class="contact-details">
+                    <h2 class="contact-school">วิทยาลัยพณิชยการบางนา</h2>
+                    <h3 class="contact-channels">ช่องทางการติดต่อ</h3>
+                    <div class="contact-item">
+                        <span class="contact-label">Email:</span>
+                        <span class="contact-value">66202040071@bncc.ac.th</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">เบอร์โทรศัพท์:</span>
+                        <span class="contact-value">097-3066137</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">Facebook:</span>
+                        <span class="contact-value">อุปกรณ์ฟื้นฟูสมรรถภาพแขน</span>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://heartfelt-jelly-88e7ae.netlify.app/" class="social-icon" onclick="showPopup('ลิงก์เว็บไซต์')">
+                            <span>🔗</span>
+                        </a>
+                        <a href="https://www.facebook.com/people/%E0%B8%AD%E0%B8%B8%E0%B8%9B%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%9F%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B8%9F%E0%B8%B9%E0%B8%AA%E0%B8%A1%E0%B8%A3%E0%B8%A3%E0%B8%96%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%81%E0%B8%82%E0%B8%99/61583622210061/?sk=followers" class="social-icon" onclick="showPopup('Facebook')">
+                            <span>f</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+        <section class="map-section">
+            <div class="container">
+                <h2 class="map-title">ตำแหน่งที่ตั้งของวิทยาลัยพณิชยการบางนา</h2>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.5!2d100.616!3d13.676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDQwJzM0LjAiTiAxMDDCsDM2JzU3LjIiRQ!5e0!3m2!1sth!2sth!4v1234567890" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+    </div>
+
+   
+    <div id="popupOverlay" class="popup-overlay" onclick="closePopup()">
+        <div class="popup-container" onclick="event.stopPropagation()">
+            <button class="popup-close" onclick="closePopup()">×</button>
+            <div class="popup-content" id="popupContent">
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification Popup -->
+    <div id="notification" class="notification">
+        <div class="notification-content">
+            <span id="notificationText">ยินดีต้อนรับ!</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
